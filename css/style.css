@@ -1,0 +1,283 @@
+/* ===========================
+   GENERAL
+=========================== */
+
+body{
+    background:#f4f6f9;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.navbar-brand{
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+.navbar .nav-link{
+    color:#fff !important;
+    font-weight:500;
+    transition:.3s;
+}
+
+.navbar .nav-link:hover{
+    color:#ffc107 !important;
+}
+
+.navbar .badge{
+    font-size:12px;
+}
+
+/* ===========================
+   HERO SLIDER
+=========================== */
+
+.carousel-item img{
+    height:550px;
+    object-fit:cover;
+}
+
+.carousel-caption{
+    background:rgba(0,0,0,.55);
+    padding:20px;
+    border-radius:12px;
+}
+
+.carousel-caption h1{
+    font-size:45px;
+    font-weight:bold;
+}
+
+.carousel-caption p{
+    font-size:20px;
+}
+
+/* ===========================
+   CATEGORY CARDS
+=========================== */
+
+.category-card{
+    transition:.3s;
+    border:none;
+    border-radius:15px;
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+.category-card h1{
+    font-size:50px;
+}
+
+/* ===========================
+   PRODUCT CARDS
+=========================== */
+
+.product-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.4s;
+    background:#fff;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+.product-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.product-card .card-body{
+    text-align:center;
+}
+
+.product-card h5{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.product-card h4{
+    color:#198754;
+    font-weight:bold;
+}
+
+.rating{
+    color:#ffc107;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.badge-sale{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background:#dc3545;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn{
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:scale(1.03);
+}
+
+.btn-success:hover{
+    transform:scale(1.03);
+}
+
+.btn-warning{
+    color:#000;
+    font-weight:bold;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card:hover{
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   TABLES
+=========================== */
+
+.table{
+    background:#fff;
+}
+
+.table th{
+    background:#212529;
+    color:#fff;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+/* ===========================
+   FORMS
+=========================== */
+
+.form-control,
+.form-select{
+    border-radius:10px;
+}
+
+textarea{
+    resize:none;
+}
+
+/* ===========================
+   OFFER BANNER
+=========================== */
+
+.offer-banner{
+    background:linear-gradient(135deg,#ffc107,#ff9800);
+    color:#000;
+    border-radius:15px;
+    padding:60px;
+    text-align:center;
+    margin-top:50px;
+}
+
+.offer-banner h2{
+    font-size:40px;
+    font-weight:bold;
+}
+
+.offer-banner p{
+    font-size:18px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#212529;
+    color:#fff;
+    margin-top:80px;
+    padding:40px 0;
+}
+
+footer a{
+    color:#fff;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#ffc107;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.carousel-item img{
+    height:350px;
+}
+
+.carousel-caption h1{
+    font-size:28px;
+}
+
+.carousel-caption p{
+    font-size:16px;
+}
+
+}
+
+@media(max-width:768px){
+
+.product-card img{
+    height:220px;
+}
+
+.category-card h1{
+    font-size:40px;
+}
+
+.carousel-item img{
+    height:250px;
+}
+
+.navbar-brand{
+    font-size:24px;
+}
+
+}
