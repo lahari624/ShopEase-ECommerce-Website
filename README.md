@@ -162,59 +162,59 @@ http://localhost/ecommerce/
 
 ## Home Page
 
-![Home](screenshots/home.png)
+![Home](home.png)
 
 ## Products
 
-![Products](screenshots/products.png)
+![Products](products.png)
 
 ## Product Details
 
-![Product Details](screenshots/product-details.png)
+![Product Details](product_details.png)
 
 ## Shopping Cart
 
-![Cart](screenshots/cart.png)
+![Cart](cart.png)
 
 ## Wishlist
 
-![Wishlist](screenshots/wishlist.png)
+![Wishlist](wishlist.png)
 
 ## Checkout
 
-![Checkout](screenshots/checkout.png)
+![Checkout](checkout.png)
 
 ## My Orders
 
-![Orders](screenshots/orders.png)
+![Orders](orders.png)
 
 ## Order Details
 
-![Order Details](screenshots/order-details.png)
+![Order Details](order_details.png)
 
 ## Admin Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Manage Products
 
-![Products](screenshots/manage-products.png)
+![Products](manage_products.png)
 
 ## Manage Categories
 
-![Categories](screenshots/manage-categories.png)
+![Categories](manage_categories.png)
 
 ## Manage Orders
 
-![Orders](screenshots/manage-orders.png)
+![Orders](manage_orders.png)
 
 ## Manage Users
 
-![Users](screenshots/manage-users.png)
+![Users](manage_users.png)
 
 ## Reports
 
-![Reports](screenshots/reports.png)
+![Reports](reports.png)
 
 ---
 
